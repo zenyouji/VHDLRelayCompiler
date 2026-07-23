@@ -405,7 +405,7 @@ dotnet run -- -i example.vhdl -o output.net --verbose
 
 - **relay-statistics**: 必要なリレー総数と内訳を表示
 - **ladder-diagram**: ラダーダイアグラムのテキスト図
-- **kicad-netlist**: KiCad用ネットリスト (XML形式)
+- **kicad-netlist**: KiCad用ネットリスト (S式形式)
 
 KiCadで `output.net` を開くと、配線済の回路図が表示されます。
 
